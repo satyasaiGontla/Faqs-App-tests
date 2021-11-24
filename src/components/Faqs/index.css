@@ -1,0 +1,42 @@
+.faqs-bg-container {
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 90%;
+  padding-left: 0px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .faqs-container {
+    width: 80%;
+    border-radius: 12px;
+  }
+}
+
+.main-heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-size: 44px;
+}
+
+.faqs {
+  width: 90%;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .faqs {
+    width: 80%;
+  }
+}
